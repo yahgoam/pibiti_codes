@@ -1,0 +1,7 @@
+https://www.sparkfun.com/products/13956
+
+The SparkFun Weather Shield is an easy-to-use Arduino shield that grants you access to barometric pressure, relative humidity, luminosity and temperature. There are also connections on this shield to optional sensors such as wind speed, direction, rain gauge and GPS for location and super accurate timing.
+
+The Weather Shield utilizes the Si7021 humidity/temperature sensor, the MPL3115A2 barometric pressure sensor and the ALS-PT19 light sensor. The shield relies on the Si7021 and MPL3115A2 Arduino libraries.
+
+Each shield comes with two unpopulated RJ11 connector spaces (for optional hookup of rain and wind sensors) and a 6-pin GPS connector (for optional hookup of a GP-735 GPS module). Finally, each Weather Shield can operate from 3.3V up to 16V and has built-in voltage regulators and signal translators.
