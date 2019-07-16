@@ -47,7 +47,8 @@ def makeFig():
     
 
 while True:
-    lines = ser.readline().rstrip()
+    lines = ser.readline().rstrip().decode('ascii')
+    print(lines)
     if lines[0] == '1':
             dataSerial = lines.split(',')
 
@@ -68,15 +69,15 @@ while True:
                     pressure.pop(0)
                     light.pop(0)
 
-                print(humidity)
-                print(temp)
-                print(pressure)
-                print(light)
+                # print(humidity)
+                # print(temp)
+                # print(pressure)
+                # print(light)
 
     #log
-    lines = ser.readline().decode('ascii')
-    logFile = open("logFile.csv","a")
-    logFile.write(str(lines))
-    logFile.close()
-    #end log
+    # lines = ser.readline().decode('ascii')
+    # logFile = open("logFile.csv","a")
+    # logFile.write(str(lines))
+    # logFile.close()
+    # #end log
     time.sleep(1)
